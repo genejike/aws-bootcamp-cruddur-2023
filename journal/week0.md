@@ -132,7 +132,7 @@ aws sts get-caller-identity --query Account --output text
 
 ```sh
 aws budgets create-budget \
-    --account-id AccountID \
+    --account-id $AWS_ACCOUNT_ID \
     --budget file://aws/json/budget.json \
     --notifications-with-subscribers file://aws/json/budget-notifications-with-subscribers.json
 ```
