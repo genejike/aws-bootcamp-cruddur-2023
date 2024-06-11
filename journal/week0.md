@@ -1,7 +1,5 @@
 # Week 0 — Billing and Architecture
 
-# Week 0 — Billing and Architecture
-
 ### Step 1
 In order to adequately prepare for the program ,watch thoroughly this [video](https://www.youtube.com/playlist?list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv
 ) by andrew brown 
@@ -44,14 +42,14 @@ Follow the following steps to get prepared :
 ### Set up billing alerts
 1.click on billing preferences and input your email to receive billing alerts by email
 
-![Alt text](/Journal-images/image-0/added-gmail.png)
+![Alt text](https://github.com/genejike/aws-bootcamp-cruddur-2023-1/blob/main/Journal-images/image-0/added-gmail.png)
 
 - You can either click on the manage billing alerts icon or the try the new budgets feature 
 
 1. Click on the manage billing alerts icon and it opens up cloud watch 
 to set up your alarms click on the in alarm and create alarm then click select metric
 
-![Alt text](/Journal-images/image-0/create-alarm.png)
+![Alt text](https://github.com/genejike/aws-bootcamp-cruddur-2023-1/blob/main/Journal-images/image-0/create-alarm.png)
 - select billing and total estimated charges 
 - click on the currency and click select metric.
 - change the metric name and scroll down and define the threshold value
@@ -59,14 +57,14 @@ to set up your alarms click on the in alarm and create alarm then click select m
 add the alarm name click next .
 - preview your actions and create 
 
-![Alt text](/Journal-images/image-0/alarm-created.png)
+![Alt text](https://github.com/genejike/aws-bootcamp-cruddur-2023-1/blob/main/Journal-images/image-0/alarm-created.png)
 
 2. click on budgets and click on create budgets
    
-![Alt text](/Journal-images/image-0/budgets.png)
+![Alt text](https://github.com/genejike/aws-bootcamp-cruddur-2023-1/blob/main/Journal-images/image-0/budgets.png)
 - follow the steps to create it
 
-![Alt text](/Journal-images/image-0/created-budget.png)
+![Alt text](https://github.com/genejike/aws-bootcamp-cruddur-2023-1/blob/main/Journal-images/image-0/created-budget.png)
 
 - you can also check out your cost allocation tags ,cost explorer,credits ,billing calculator and free tier services
   
@@ -77,12 +75,12 @@ This is [MY CONCEPTUAL MODEL](https://lucid.app/lucidchart/fbd3e4e9-635b-4ff3-8d
 
 Napkin design
 
-![Alt text](/Journal-images/image-0/conceptual-diagram.png)
+![Alt text](https://github.com/genejike/aws-bootcamp-cruddur-2023-1/blob/main/Journal-images/image-0/conceptual-diagram.png)
 
 
 
 ###  This is [My Logical Diagram](https://lucid.app/lucidchart/5f28964b-e389-4943-8ab3-b2009bf6c0b4/edit?viewport_loc=-11%2C-10%2C1472%2C628%2C0_0&invitationId=inv_a4f519de-cb75-41f6-94d0-14051236e04b)
-![Alt text](/Journal-images/image-0/updated%20logical%20diagram.png)
+![Alt text](https://github.com/genejike/aws-bootcamp-cruddur-2023-1/blob/main/Journal-images/image-0/updated%20logical%20diagram.png)
 
 
 
@@ -102,18 +100,18 @@ Alternatively
 
 2.You can go to the account section and click on the security credentials 
 
-![Alt text](/Journal-images/image-0/security-credentials1.png)
+![Alt text](https://github.com/genejike/aws-bootcamp-cruddur-2023-1/blob/main/Journal-images/image-0/security-credentials1.png)
 
 - write a device name and select an MFA device and complete the steps .
 - I used the mobile phone authenticator
 
-![Alt text](/Journal-images/image-0/MFA.png)
+![Alt text](https://github.com/genejike/aws-bootcamp-cruddur-2023-1/blob/main/Journal-images/image-0/MFA.png)
 
 ### Aws organizations
 A central management for multiple aws accounts.
 - Go to the aws organization and create an organization unit click on roots scroll down and create an organisation unit also remember to add tags form the habit of tagging 
 
-![Alt text](/Journal-images/image-0/organisation-unit.png)
+![Alt text](https://github.com/genejike/aws-bootcamp-cruddur-2023-1/blob/main/Journal-images/image-0/organisation-unit.png)
 - You can explore the actions button to see what you can do 
 
 ### AWS Cloud Trail
@@ -132,9 +130,9 @@ A central management for multiple aws accounts.
 4.Set permissions
 
 - Review and create 
-![Alt text](/Journal-images/image-0/Retrive-password.png)
+![Alt text](https://github.com/genejike/aws-bootcamp-cruddur-2023-1/blob/main/Journal-images/image-0/Retrive-password.png)
 
-![Alt text](/Journal-images/image-0/user-created.png)
+![Alt text](https://github.com/genejike/aws-bootcamp-cruddur-2023-1/blob/main/Journal-images/image-0/user-created.png)
 
 - Set up the MFA also for this account
 
@@ -189,7 +187,7 @@ Check that the AWS CLI is working and
 aws sts get-caller-identity
 ```
 
-![Alt text](/Journal-images/image-0/caller_identity1.png)
+![Alt text](https://github.com/genejike/aws-bootcamp-cruddur-2023-1/blob/main/Journal-images/image-0/caller_identity1.png)
 
 - Enable Billing using cli
 
@@ -221,7 +219,7 @@ We'll create a subscription supply the TopicARN and our Email
 ```
 - Check your email and confirm the subscription or confirm it from the aws management console 
 
-![Alt text](/Journal-images/image-0/billingandbudget.png)
+![Alt text](https://github.com/genejike/aws-bootcamp-cruddur-2023-1/blob/main/Journal-images/image-0/billingandbudget.png)
 
 ### Create Alarm
 ```
